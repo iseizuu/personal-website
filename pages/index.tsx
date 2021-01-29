@@ -24,7 +24,7 @@ export default function Home() {
       <div className="bg-blue-200 dark:bg-gray-700">
         <div className="min-w-screen min-h-screen flex items-center justify-center px-5 py-5">
           <div className="max-w-lg antialiased">
-            <div className="bg-white dark:bg-gray-900 p-5 flex rounded-t-md shadow-lg">
+            <div className="bg-white dark:bg-gray-900 p-5 flex rounded-lg shadow-lg">
               <button onClick={() => selectTheme("light")} className="w-5 h-5 text-yellow-400 dark:text-white fa fa-sun fa-1x rounded-full mr-2"></button>
               <button onClick={() => selectTheme("dark")} className="w-5 h-5 text-gray-700 dark:text-yellow-400 fa fa-moon fa-1x rounded-full"></button>
             </div>
